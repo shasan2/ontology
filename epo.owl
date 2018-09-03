@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+     xmlns:TRANS="http://purl.org/obo/owl/TRANS#"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
+    <Ontology rdf:about="http://purl.obolibrary.org/obo/epo.owl">
+        <versionIRI rdf:resource="http://purl.obolibrary.org/obo/epo/2013-06-21/epo.owl"/>
+        <imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">
+The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)
+</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">
+	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
+	</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">
+Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people
+</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w
+</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">
+formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007
+</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">
+	For external terms/classes, the ontology from which the term was imported
+	</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:http://purl.obolibrary.org/obo/obi</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000050 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000050">
+        <rdfs:label xml:lang="en">part_of</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056">
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000105 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000105">
+        <rdfs:label xml:lang="en">location of</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002092 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002092">
+        <rdfs:label xml:lang="en">happens during</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000001">
+        <rdfs:label>parameter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <obo:IAO_0000115>A quantity (such as the mean or variance) that characterizes a statistical population and that can be estimated by calculations from sample data</obo:IAO_0000115>
+        <obo:IAO_0000119>WordNet</obo:IAO_0000119>
+    </Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/EPO_0000133 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/EPO_0000133">
+        <rdfs:label>epidemiological parameter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EPO_0000001"/>
+        <obo:IAO_0000115>A quantity (such as the mean or variance) that characterizes epidemiological entities or events and that can be estimated by calculations from sample data</obo:IAO_0000115>
+    </Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000000 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000000">
+        <rdfs:label>transmission of infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <!--<rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002092"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EPO_0000032"/> 
+            </Restriction>
+        </rdfs:subClassOf>-->
+        <obo:IAO_0000118>transmission process</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0242781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000182</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 xml:lang="en">Transmission of infectious agents. Any mechanism by which an infectious agent is spread from a source or reservoir to another person.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transmission</oboInOwl:hasDbXref>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MSH/Q000635</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MSH/D018562</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000002">
+        <rdfs:label>indirect transmission</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10021714</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Indirect_Contact_Transmission_Infection</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.semanticweb.org/ontologies/2010/5/22/Ontology1277229984000.owl#HPI:0000186</oboInOwl:hasDbXref>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <obo:IAO_0000118>indirect</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+    </Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000005">
+        <rdfs:label>vector-borne transmission</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <obo:IAO_0000115>Transmission by an infected nonvertebrate host must be differentiated for epidemiological purposes from simple mechanical carriage by a vector in the role of a vehicle. An arthropod in either role is termed a vector.</obo:IAO_0000115>
+        <obo:IAO_0000119>Dictionary of Epidemiology, Miquel Porta (Ed.)</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>http://purl.bioontology.org/ontology/MDR/10047176</oboInOwl:hasDbXref>
+        <obo:IAO_0000118>vector-borne</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/trans.owl"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
